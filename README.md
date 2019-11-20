@@ -1,4 +1,4 @@
-# NewyorkTaxiAnalysis
+# Newyork Taxi Analysis
 ## 1. Introduction
 In this project, I used data collected by the New York City Taxi and Limousine commission about “Green” Taxis. Green Taxis are taxis that are not allowed to pick up passengers inside of the densely populated areas of Manhattan. We will use the data from September 2015. We use Apache spark to finish the tasks. We group all trips into the following four categories, NJ → NJ, NJ → NYC, NYC → NJ, NYC → NYC. We build some association rules on intra- vs. inter-borough traffic. We try to identify in which hour of the day, there would be more inter-borough traffic than intra-borough traffic. To augment the dataset, you can create derived features such as year, month, hour.
 
